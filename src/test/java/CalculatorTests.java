@@ -8,7 +8,7 @@ public class CalculatorTests {
 boolean check;
 
     @Test
-    public void DivisionByZeroCheck() throws IOException {
+    public void DivisionByZeroCheck() {
         MathProcessor division = new Division();
         try{
             division.invoke(1, 0);
